@@ -1,0 +1,34 @@
+{
+  "name": "eslint-config-rupor",
+  "version": "0.0.1",
+  "main": "index.js",
+  "homepage": "https://bitbucket.org/cyrm/rupor-eslint-frontend",
+  "author": "Cyber-Rom",
+  "license": "UNLICENSED",
+  "description": "Eslint конфиг",
+  "scripts": {
+    "bump": "npm version patch && git push && git push --tags"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.2",
+    "eslint-config-airbnb-typescript": "^16.1.0",
+    "eslint-config-next": "^12.0.4"
+
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url":  "git@bitbucket.org:cyrm/rupor-eslint-frontend.git"
+  }
+}
