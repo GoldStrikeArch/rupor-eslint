@@ -7,7 +7,7 @@
 ### Устанока
 
 ```bash
-    npm i git+ssh://git@github.com/cyber-rom/rupor-eslint.git -D
+npm i git+ssh://git@github.com/cyber-rom/rupor-eslint.git -D
 ```
 
 ### Использование
