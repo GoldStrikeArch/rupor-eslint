@@ -2,7 +2,7 @@
   "name": "eslint-config-rupor",
   "version": "0.0.1",
   "main": "index.js",
-  "homepage": "https://bitbucket.org/cyrm/rupor-eslint-frontend",
+  "homepage": "https://github.com/cyber-rom/rupor-eslint",
   "author": "Cyber-Rom",
   "license": "UNLICENSED",
   "description": "Eslint конфиг",
@@ -29,6 +29,6 @@
   },
   "repository": {
     "type": "git",
-    "url":  "git@bitbucket.org:cyrm/rupor-eslint-frontend.git"
+    "url":  "git@github.com:cyber-rom/rupor-eslint.git"
   }
 }
