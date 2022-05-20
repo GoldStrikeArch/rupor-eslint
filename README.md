@@ -7,7 +7,11 @@
 ### Устанока
 
 ```bash
-npm i git+ssh://git@github.com/cyber-rom/rupor-eslint.git -D
+npm i eslint-config-rupor -D
+```
+или
+```bash
+yarn add eslint-config-rupor -D
 ```
 
 ### Использование
