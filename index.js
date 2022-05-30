@@ -3,6 +3,10 @@ module.exports = {
     "airbnb",
     "airbnb-typescript"
   ],
+  "plugins": [
+    "modules-newline",
+    "newline-after-if-condition"
+  ],
   "rules": {
     "react/jsx-max-props-per-line": ["error", { "maximum": { "single": 2, "multi": 1 }}],
     "react/jsx-handler-names": ["error", { "checkLocalVariables": true }],
