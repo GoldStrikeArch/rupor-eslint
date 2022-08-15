@@ -54,8 +54,8 @@ module.exports = {
       {
         "ImportDeclaration": { "minProperties": 2, "consistent": false, "multiline": true }
       }],
-    "modules-newline/import-declaration-newline": "error",
-    "modules-newline/export-declaration-newline": "warn",
+    "modules-newlines/import-declaration-newline": "error",
+    "modules-newlines/export-declaration-newline": "warn",
     "react/jsx-key": "error",
     "react/prop-types": "off"
   }
