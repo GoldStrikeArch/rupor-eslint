@@ -4,7 +4,7 @@ module.exports = {
     "airbnb-typescript"
   ],
   "plugins": [
-    "modules-newline",
+    "modules-newlines",
     "newline-after-if-condition"
   ],
   "rules": {
